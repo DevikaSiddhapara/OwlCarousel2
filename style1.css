@@ -1,0 +1,894 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Lato", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+.navi ul li {
+    display: inline;
+
+}
+
+.navi ul li a {
+    text-decoration: none;
+    padding: 14px;
+    color: #ffffffba;
+    font-size: 16px;
+}
+
+.navi ul li a:hover {
+    color: #fff;
+}
+
+nav {
+    background-color: #1ccacd;
+    height: 71.34px;
+}
+
+
+.navi nav {
+    display: flex;
+    position: relative;
+}
+
+.menus {
+    margin-left: 178px;
+    margin-right: 274px;
+    color: #fff;
+    position: absolute;
+    margin-top: 20px;
+    right: 0;
+    
+}
+
+.brand {
+    font-style: italic;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 95px;
+    position: absolute;
+    left: 190px;
+}
+
+.brand a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300;
+    padding: 1px;
+}
+.sec_1
+{
+    background-color:  #1ccacd;
+    height:450px;
+}
+.hero
+{
+    display:flex;
+}
+.content {
+    text-align: left;
+    max-width: 60%;
+    color: #fff;
+}
+h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    margin-top: 79px;
+    margin-left: 284px;
+    font-weight: 200;
+    font-size: 56px;
+}
+
+.content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+   color:#ffffffba ; 
+   margin-top:-15px;
+    margin-left: 287px;
+    
+}
+.owl_logo
+{
+    margin-top: 88px;
+    margin-left: 120px;
+}
+.buttons {
+    display: flex;
+    gap: 20px;
+    margin-top: 35px;
+    margin-left: 287px;
+
+
+}
+.btn {
+    text-decoration: none;
+    padding: 16px 32px;
+    font-weight: 400;
+    font-size: 16px;
+    border: 2px solid white;
+    transition: 0.3s ease;
+}
+
+.download {
+    background-color: white;
+    color: #00b3b3;
+   
+}
+
+.github {
+    background-color: transparent;
+    color: white;
+    
+}
+
+.btn:hover {
+    background-color: #ff3f4d;
+    color: white;
+}
+.version
+{
+    color:#ffffffba ; 
+    margin-top: 19px;
+    font-weight: 100;
+}
+
+.sec_2 h2
+{
+    color:#808080;
+    margin-top: 70px;
+    font-weight: 500;
+    font-size: 30px;
+
+}
+.demo
+{
+    display:flex;
+    gap: 10px;
+    margin-left: 259px;
+    margin-top: 25px;
+    font-style: normal;
+}
+.swipe
+{
+    border:3px solid  #ff3f4d;
+    height:50px;
+    width:320px;
+    background-color:#ff3f4d ;
+    color:white;
+    font-style: italic;
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+    padding: 80px 0;
+    margin: 0;
+
+   
+}
+.drag
+{
+    border:3px solid  #ff3f4d;
+    height:50px;
+    width:320px;
+    background-color:#ff3f4d ;
+    color:white;
+    font-style: italic;
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+
+    
+    padding: 80px 0;
+    margin: 0;
+    
+}
+.responsive
+{
+    border:3px solid  #ff3f4d;
+    height:50px;
+    width:320px;
+    background-color:#ff3f4d ;
+    color:white;
+    font-style: italic;
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+    padding: 80px 0;
+    margin: 0;
+}
+/* .box1 
+{
+    display: flex;
+
+} */
+.sec3 {
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.full_custom {
+    margin-top: 87px;
+    margin-left: 415px;
+    position: relative;
+    /* top: 87px; */
+    /* left: 415px; */
+    width: fit-content;
+    height: fit-content;
+}
+
+
+
+.place1 {
+    position: absolute;
+    top: 0px;
+    left: 195px;
+    width: 500px;
+}
+
+.block {
+    display: inline-block;
+}
+
+
+.text h2 {
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 22px;
+    font-size: 37px;
+}
+
+.text p {
+    color: #555555;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.6;
+    margin-bottom: 20px;
+
+}
+
+.place2 {
+    position: absolute;
+    top: 225px;
+    left: 195px;
+    width: 500px;
+}
+
+.place3 {
+    position: absolute;
+    top: 470px;
+    left: 195px;
+    width: 500px;
+}
+
+.cent {
+    margin-left: 36px;
+}
+
+.place4 {
+    position: absolute;
+    top: 710px;
+    left: 195px;
+    width: 500px;
+}
+
+.place5 {
+    position: absolute;
+    top: 950px;
+    left: 195px;
+    width: 500px;
+}
+
+.place6 {
+    position: absolute;
+    top: 1190px;
+    left: 195px;
+    width: 500px;
+}
+.span
+{
+    margin: 20px;
+    height:30px;
+}
+.teaser-text {
+    text-align: center;
+}
+.row {
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 100%;
+}
+.row hr
+{
+    border: solid #ddd;
+    border-width: 1px 0 0;
+    clear: both;
+    height: 0;
+    margin: 60px 0 19px;
+}
+.teaser-text h2 {
+    font-weight: 300;
+    color: #1ccacd;
+}
+.row p {
+    color: #555555;
+    margin-top: 30px;
+}
+.footer {
+    margin-top: 246px;
+    background: #f7f7f7;
+}
+.row1 {
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 100%;
+}
+.footer h5 {
+    text-align: center;
+    color: #8d8d8d;
+    margin: 32px 0;
+    font-weight: normal;
+    font-size: 16px;
+}
+.footer h5 a {
+    font-weight: normal;
+    margin-right: 4.8px;
+}
+.footer a {
+    color: #1ccacd;
+    line-height: inherit;
+    text-decoration: none;
+}
+.custom-tweet-button {
+    padding: 6px 24px 6px 13px;
+    margin-left: 0px;
+    background: url(img/bird_blue_32.png) 1px center no-repeat;
+}
+.title {
+    background: #f7f7f7;
+    margin-bottom: 32px;
+}
+.row2 {
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 100%;
+}
+.title h1 {
+    margin: 0;
+    padding: 19.2px 0;
+    font-weight: 300;
+
+}
+.demo-sec2 {
+    width: 100%;
+    /* overflow-x: hidden;
+    overflow-y: hidden; */
+}
+
+.demo-bx1 {
+    margin: 0 auto;
+    width: 100%;
+
+}
+
+.demo-bx1 h4 {
+    color: #222;
+    font-family: "Lato", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.4;
+    margin-bottom: 32px;
+    margin-top: 70px;
+    margin-left: 185px;
+}
+
+.demo-bx1 hr {
+    border: solid #ddd;
+    border-width: 1px 0 0;
+    clear: both;
+    height: 0;
+    margin: 0 180px;
+    box-sizing: content-box;
+}
+
+.demo-main {
+    width: 100%
+}
+
+.demo-btn {
+    /* margin: 20px 190px; */
+    margin-top: 20px;
+    margin-left: 190px;
+    position: relative;
+    display: block;
+}
+
+.demo-btn h4 {
+    font-size: 18px;
+    padding-top: 5px;
+    padding-left: 10px;
+    font-weight: 500;
+}
+
+.btn1 {
+    background: #eaeaea;
+    height: 96px;
+    width: 220px;
+    padding-top: 10px;
+
+}
+
+.btn1:hover {
+    background-color: #1ccacd;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.bx {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 10px;
+}
+
+.bx1 {
+    position: absolute;
+    top: 0;
+    left: 250px;
+    padding-top: 10px;
+}
+
+.bx2 {
+    position: absolute;
+    top: 0;
+    left: 500px;
+    padding-top: 10px;
+}
+
+.bx3 {
+    position: absolute;
+    top: 0;
+    left: 750px;
+    padding-top: 10px;
+}
+
+.bx4 {
+    position: absolute;
+    top: 126px;
+    left: 0;
+    padding-top: 10px;
+}
+
+.bx5 {
+    position: absolute;
+    top: 126px;
+    left: 250px;
+    padding-top: 10px;
+}
+
+.bx6 {
+    position: absolute;
+    top: 126px;
+    left: 500px;
+    padding-top: 10px;
+}
+
+.bx7 {
+    position: absolute;
+    top: 126px;
+    left: 750px;
+    padding-top: 10px;
+}
+
+.bx8 {
+    position: absolute;
+    top: 252px;
+    left: 0;
+    padding-top: 10px;
+}
+
+.demo-sec3 {
+    width: 100%;
+    /* overflow-y: hidden; */
+    /* overflow-x: hidden; */
+}
+
+.plug-head h4 {
+    color: #222;
+    font-family: "Lato", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.4;
+    margin-bottom: 32px;
+    margin-top: 425px;
+    margin-left: 185px;
+}
+
+.plug-head hr {
+    border: solid #ddd;
+    border-width: 1px 0 0;
+    clear: both;
+    height: 0;
+    margin: 0 180px;
+    box-sizing: content-box;
+}
+
+.plug-main {
+    width: 100%;
+
+}
+
+.plug-main {
+    margin: 20px 190px;
+    position: relative;
+    display: block;
+}
+
+.plug-main h4 {
+    font-size: 18px;
+    padding-top: 5px;
+    padding-left: 10px;
+    font-weight: 500;
+}
+
+.plg {
+    background: #eaeaea;
+    height: 96px;
+    width: 220px;
+    padding-top: 10px;
+}
+
+.plg:hover {
+    background-color: #1ccacd;
+    color: #fff;
+    cursor: pointer;
+}
+
+.b1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 10px;
+}
+
+.b2 {
+
+    position: absolute;
+    top: 0;
+    left: 250px;
+    padding-top: 10px;
+}
+
+.b3 {
+    position: absolute;
+    top: 0;
+    left: 500px;
+    padding-top: 10px;
+}
+
+.b4 {
+    position: absolute;
+    top: 0;
+    left: 750px;
+    padding-top: 10px;
+
+}
+
+.b5 {
+    position: absolute;
+    top: 126px;
+    left: 0;
+    padding-top: 10px;
+}
+
+.lib-head h4 {
+    color: #222;
+    font-family: "Lato", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.4;
+    margin-bottom: 32px;
+    margin-top: 320px;
+    margin-left: 185px;
+}
+
+.lib-head hr {
+    border: solid #ddd;
+    border-width: 1px 0 0;
+    clear: both;
+    height: 0;
+    margin: 0 180px;
+    box-sizing: content-box;
+}
+
+.lib-main {
+    width: 100%;
+
+}
+
+.lib-main {
+    margin: 20px 190px;
+    position: relative;
+    display: block;
+}
+
+.lib-main h4 {
+    font-size: 18px;
+    padding-top: 5px;
+    padding-left: 10px;
+    font-weight: 500;
+}
+
+.lib {
+    background: #eaeaea;
+    height: 96px;
+    width: 220px;
+    padding-top: 10px;
+}
+
+.lib:hover {
+    background-color: #1ccacd;
+    color: #fff;
+    cursor: pointer;
+}
+
+.lb1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 10px;
+}
+
+
+
+
+.doc-sec1 {
+    margin-top: 32px;
+
+}
+
+.display {
+    position: relative;
+}
+
+.doc-main {
+    margin: 0 auto;
+    /* max-width: 62.5rem; */
+    width: 100%;
+
+}
+
+.side-nav {
+    text-align: left;
+    width: fit-content;
+    display: block;
+    font-family: "Lato", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    list-style-position: outside;
+    list-style-type: none;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 80px;
+    margin-left: 200px;
+    padding-left: 30px;
+}
+
+.side-nav {
+
+    text-align: left;
+    width: fit-content;
+    display: block;
+    font-family: "Lato", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    list-style-position: outside;
+    list-style-type: none;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 80px;
+    margin-left: 200px;
+    padding-left: 30px;
+
+}
+
+.li-head {
+    text-transform: uppercase;
+    color: #210101;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: right;
+    padding: 0rem 3rem .3rem 0;
+}
+
+.boc {
+    width: 130px;
+    height: 45px;
+    padding: 0rem 3rem .3rem 0;
+    background: rgba(0, 0, 0, 0.025);
+
+}
+
+.side-nav .active {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    /* margin: 20px; */
+    margin-left: -20px;
+    padding: 7px 14px;
+}
+
+.side-nav li a {
+    width: 130px;
+    height: 40px;
+    text-decoration: none;
+    text-align: right;
+    color: #8A9191;
+    display: block;
+    /* margin: 20px; */
+    margin-left: -20px;
+    padding: 7px 14px;
+}
+
+.bhov {
+    width: 130px;
+    height: 45px;
+    padding: 0rem 3rem .3rem 0;
+    background: #fff;
+    cursor: pointer;
+}
+
+.bhov:hover {
+    width: 130px;
+    height: 45px;
+    padding: 0rem 3rem .3rem 0;
+    background: rgba(0, 0, 0, 0.025);
+    color: #000;
+}
+
+.doc-data {
+    position: absolute;
+    top: -15px;
+    left: 460px;
+}
+
+.docs-content {
+    display: block;
+}
+
+.docs-content h2 {
+    color: #222;
+    font-family: "Lato", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1.4;
+    /* margin-bottom: 2rem; */
+    /* margin-top: 3rem; */
+    text-rendering: optimizeLegibility;
+}
+
+blockquote {
+    margin: 16px 0;
+    padding: 16px 16px;
+    border-left: 7px solid #1ccacd;
+}
+
+blockquote p {
+    line-height: 1.6;
+    color: #6f6f6f;
+}
+
+.new-ft {
+    color: #222;
+    font-family: "Lato", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 1.4;
+    margin-bottom: 32px;
+    margin-top: 48px;
+}
+
+.ul1 {
+    display: block;
+    list-style-type: disc;
+    padding-left: 20px;
+    font-family: "Lato", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    line-height: 1.7;
+    /* margin-block-start: 16px; */
+    /* margin-block-end: 16px; */
+    /* padding-inline-start: 40px; */
+}
+
+.ul1 a {
+    color: #1ccacd;
+    line-height: inherit;
+    text-decoration: none;
+}
+
+.pera {
+    color: #555555;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+.link {
+    color: #1ccacd;
+    line-height: inherit;
+    text-decoration: none;
+}
+
+pre {
+    overflow-y: hidden;
+    margin-bottom: 32px;
+    background: #f8f8f8;
+    width: 720px;
+}
+
+.code-class {
+    display: block;
+    color: #333;
+    background: #f8f8f8;
+    padding: 32px;
+    line-height: 1.4;
+    overflow-x: scroll;
+    font-size: 90%;
+    font-weight: normal;
+    border-color: #dfdfdf;
+    border-style: solid;
+    border-width: 1px;
+
+}
+
+.final a {
+    color: #1ccacd;
+    line-height: inherit;
+    text-decoration: none;
+    font-family: "Lato", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4375rem;
+}
+
+.doc-ftr {
+    margin-top: 1110px;
+    background: #f7f7f7;
+    padding: 10px;
+    height: 75px;
+}
+
+.doc-ftr h5 {
+    text-align: center;
+    color: #8d8d8d;
+    margin: 32px 32px;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.doc-ftr h5 a {
+    font-weight: normal;
+    margin-right: 4px;
+    color: #1ccacd;
+    line-height: inherit;
+    text-decoration: none;
+}
+
+.doc-ftr .demo-tweet {
+
+    padding: 6px 13px 6px 13px;
+    margin-left: 0px;
+    background: url(img/twitter_25.png) 1px no-repeat;
+
+}
